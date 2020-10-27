@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+
+body{
+    width: 100%;
+    height: 100%; 
+}
+
+.landing-page-image{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    background: url("images/press-start.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+.games{
+    background: url("images/wallpaperflare.com_wallpaper.jpg") no-repeat center fixed;
+    background-size: cover;
+}
